@@ -1,1 +1,8 @@
-Git manual on vim doc.
+# Git manual on vim doc.
+
+这个项目致力于转换 git 安装程序自带的 manual 为 vim doc 格式，便于在 vim 中通过
+`:help` 查看。
+
+文档内容来源于 git 安装程序自动的脱机文档。目前主要是 msysgit for Windows 位于
+`%GIT_HOME%\doc\git\html` 目录的文档文件。这个目录下有 html 和 text 两种格式的
+文档，text 格式貌似是使用 markdown 语法的。
