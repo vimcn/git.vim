@@ -1,0 +1,1 @@
+Git manual on vim doc.
