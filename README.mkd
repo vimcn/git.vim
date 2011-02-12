@@ -5,4 +5,16 @@
 
 文档内容来源于 git 安装程序自动的脱机文档。目前主要是 msysgit for Windows 位于
 `%GIT_HOME%\doc\git\html` 目录的文档文件。这个目录下有 html 和 text 两种格式的
-文档，text 格式貌似是使用 markdown 语法的。
+文档，text 格式貌似是使用类似 markdown 的语法。
+
+- 标题的下面有与标题长度相同的横线。
+- 代码部分的上下分别也有一段横线，把这上面一段横线换成 `>`，下面一段换成 `<`，
+    并且将代码本身加一个缩进。
+- See Also 部分，`gitlink:git[1]` 转成 `|git|`。
+    （其中 gitlink 是特殊标记，[1] 这样的数值是链接指向的文档的类型，
+    参考： http://hi.baidu.com/shiqiang_hx/blog/item/e99b5ca71665e894d0435873.html ，
+    类型不为 [1] 的 gitlink 先不要转换。）
+
+
+**注意：**
+源文档文件的后面可能是版本信息，不要添加到 vim doc 文档中。
