@@ -12,7 +12,7 @@
     并且将代码本身加一个缩进。
 - See Also 部分，`gitlink:git[1]` 转成 `|git|`。
     （其中 gitlink 是特殊标记，[1] 这样的数值是链接指向的文档的类型，
-    参考： http://hi.baidu.com/shiqiang_hx/blog/item/e99b5ca71665e894d0435873.html ，
+    参考： [http://hi.baidu.com/shiqiang_hx/blog/item/e99b5ca71665e894d0435873.html](http://hi.baidu.com/shiqiang_hx/blog/item/e99b5ca71665e894d0435873.html) ，
     类型不为 [1] 的 gitlink 先不要转换。）
 
 
